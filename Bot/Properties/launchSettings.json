@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "DiscordNASBot": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "RADARR_APIKEY": "",
+        "RADARR_HOST": "",
+        "RADARR_PORT": "",
+        "DISCORD_TOKEN": "",
+        "SONARR_APIKEY": "",
+        "SONARR_HOST": "",
+        "SONARR_PORT": ""
+      }
+    }
+  }
+}

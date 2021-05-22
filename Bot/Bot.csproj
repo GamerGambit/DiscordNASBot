@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Interactive" Version="2.3.0-rc4" />
+    <PackageReference Include="Discord.Net" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RadarrSharp\RadarrSharp\RadarrSharp.csproj" />
+    <ProjectReference Include="..\SonarrSharp\SonarrSharp\SonarrSharp.csproj" />
+  </ItemGroup>
+
+</Project>

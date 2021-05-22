@@ -1,0 +1,6 @@
+[submodule "SonarrSharp"]
+	path = SonarrSharp
+	url = https://github.com/GamerGambit/SonarrSharp.git
+[submodule "RadarrSharp"]
+	path = RadarrSharp
+	url = https://github.com/GamerGambit/RadarrSharp.git
